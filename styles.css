@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+}
+
+.row {
+    width: 960px;
+    flex: 1;
+    display: flex;
+}
+
+.square {
+    flex: 1;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+}
+
